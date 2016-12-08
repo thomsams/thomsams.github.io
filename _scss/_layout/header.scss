@@ -1,0 +1,58 @@
+.login__block{
+
+    background-color:$standardBackground;
+    padding-bottom:2rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    z-index:1;
+    position:absolute;
+}
+.logo__main{
+    width:60%;
+    display:block;
+    
+    margin:0 auto;
+}
+.user__template{
+    background-color:$standardBackground;
+    padding-bottom:2rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    z-index:2;
+    position:absolute;
+    max-height:500px;
+}
+.user__img-clipArt{
+    position:relative;
+    left:-17px;
+    float:left;
+}
+.user__imgSetting{
+    width:120px;
+    position:relative;
+    
+}
+.user__img-container{
+    width:105px;
+    height:105px;
+    @include border-radius(50%);
+    overflow:hidden;
+    position:relative;
+    top:-150px;
+    left:-1px;
+}
+.user__template--close{
+    margin: 0 auto;
+    display:block;
+    color:white;
+}
+
+.header__block{
+   background-color:$standardBackground;
+    padding-bottom:.5rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    z-index:4;
+    position:absolute;
+}
+

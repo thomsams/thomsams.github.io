@@ -8,9 +8,9 @@ port        : 4000
 
 # SEO
 # ---
-title      : &title NMDAD-I
-description: "New Media Design & Development I at Artevelde University College Ghent"
-author     : Philippe De Pauw - Waterschoot
+title      : "EnerGhentic"
+description: "EnerGhentic Sports app"
+author     : Thomas Samson and Liam De Kegel
 tracking_id: "UA-79628300-1"
 # url        :
 # image      :
@@ -31,6 +31,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 sass:
+  sass_dir: ./_scss
   style: compressed
 exclude:
   - Gemfile
