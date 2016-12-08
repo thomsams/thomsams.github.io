@@ -17,8 +17,10 @@
     this.initGoogleMaps = function(){
         this._googleMapsInitialized = true;
         GMap.init('container__maps');
-        var pos = Utils.getGEOLocationByPromise();
-         GMap.addMarkerGeoLocation(pos);
+        Utils.getGEOLocationByPromise().then(function(fromResolve){
+            GMap.addMarkerGeoLocation(fromResolve);
+        });
+        
        
        
     };
