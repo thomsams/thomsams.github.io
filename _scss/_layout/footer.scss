@@ -11,6 +11,18 @@
     transition: all 368ms ease-in-out 0s;
 }
 
+.activityDetail__block{
+     background-color:$standardBackground;
+    background-blend-mode:overlay;
+    padding-bottom:2rem;
+    z-index:1;
+    position:absolute;
+    bottom:0;
+    padding-left:1rem;
+    padding-right:2rem;
+    transition: all 368ms ease-in-out 0s;
+}
+
 .offCanvas__bottom--hidden{
     bottom: -290px;
     transition: all 368ms ease-in-out 468ms;

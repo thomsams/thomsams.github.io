@@ -11,7 +11,7 @@ var Utils = {
     getJSONByPromise: function(url) {
         return new Promise(function(resolve, reject) {
             var xhr = new XMLHttpRequest();
-            xhr.open('get', this.API_URL, true);
+            xhr.open('get', url, true);
             xhr.responseType = 'json';
             xhr.onload = function() {
                 if(xhr.status == 200) {
@@ -155,5 +155,15 @@ var Utils = {
                 reject("HTML5 Geolocation not supported!");
             }
         });
+    },
+    "extendedDataToArray": function(feature)
+{
+    var returnArray = new Array();
+    $(feature.getKml()).find("Data").each(function()
+    {
+        returnArray[$(this).attr("name")] = $(this).find("value").text();
     }
+    );
+    return returnArray;
+}
 }

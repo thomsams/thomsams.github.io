@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<Schema name="Sport(Gent)" id="Sport(Gent)">
+<SimpleField type="int" name="FID"/>
+<SimpleField type="string" name="Naam"/>
+<SimpleField type="string" name="straat"/>
+<SimpleField type="double" name="nr"/>
+<SimpleField type="double" name="pstcd"/>
+<SimpleField type="string" name="Gem"/>
+<SimpleField type="string" name="type"/>
+</Schema>
+<name>SportGent</name>
+<visibility>1</visibility>
+<Folder id="kml_ft_Sport(Gent)">
+<name>Sport(Gent)</name>
+<Placemark id="kml_1">
+<name>kml_1</name>
+<Snippet> </Snippet>
+<description><![CDATA[
+            <p class="text__accent submenu__title activity__detail--title">Sportcentrum Bourgoyen</p>
+            <p class="activity__detail--adress">Driepikkelstraat 30<br>9030 Mariakerke</p>
+            <p class="activity__detail--description">Sportcentrum Mariakerke</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>
+           ]]> </description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">0</SimpleData>
+<SimpleData name="Naam">Bourgoyen</SimpleData>
+<SimpleData name="straat">Driepikkelstraat</SimpleData>
+<SimpleData name="nr">30</SimpleData>
+<SimpleData name="pstcd">9030</SimpleData>
+<SimpleData name="Gem">Mariakerke</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.68082174850063,51.0670195837711,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2">
+<name>kml_2</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Driebeek</p>
+            <p class="activity__detail--adress">Driebeekstraat 22<br>9050 Gentbrugge</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">1</SimpleData>
+<SimpleData name="Naam">Driebeek</SimpleData>
+<SimpleData name="straat">Driebeekstraat</SimpleData>
+<SimpleData name="nr">22</SimpleData>
+<SimpleData name="pstcd">9050</SimpleData>
+<SimpleData name="Gem">Gentbrugge</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.76872261824132,51.0376096402329,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_3">
+<name>kml_3</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Hekers</p>
+            <p class="activity__detail--adress">Ter Linden 29<br>9052 Zwijnaarde</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">2</SimpleData>
+<SimpleData name="Naam">Hekers</SimpleData>
+<SimpleData name="straat">Ter Linden</SimpleData>
+<SimpleData name="nr">29</SimpleData>
+<SimpleData name="pstcd">9052</SimpleData>
+<SimpleData name="Gem">Zwijnaarde</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.71043023671827,51.003214547577,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_4">
+<name>kml_4</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Neptunus</p>
+            <p class="activity__detail--adress">Botestraat 98<br>9032 Wondelgem</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">3</SimpleData>
+<SimpleData name="Naam">Neptunus</SimpleData>
+<SimpleData name="straat">Botestraat</SimpleData>
+<SimpleData name="nr">98</SimpleData>
+<SimpleData name="pstcd">9032</SimpleData>
+<SimpleData name="Gem">Wondelgem</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.70358920030471,51.0886307623523,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_5">
+<name>kml_5</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Rozebroeken</p>
+            <p class="activity__detail--adress">Rozebroekslag 24<br>9040 Sin-Amandsberg</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">4</SimpleData>
+<SimpleData name="Naam">Rozebroeken</SimpleData>
+<SimpleData name="straat">Rozebroekslag</SimpleData>
+<SimpleData name="nr">24</SimpleData>
+<SimpleData name="pstcd">9040</SimpleData>
+<SimpleData name="Gem">Sint-Amandsberg</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.76042703928017,51.0588091751543,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_6">
+<name>kml_6</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Tolhuis</p>
+            <p class="activity__detail--adress">Tolhuislaan 77<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">5</SimpleData>
+<SimpleData name="Naam">Tolhuis</SimpleData>
+<SimpleData name="straat">Tolhuislaan</SimpleData>
+<SimpleData name="nr">77</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.72455206251269,51.0633435462836,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_7">
+<name>kml_7</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Wolfput</p>
+            <p class="activity__detail--adress">Wolfputstraat 92<br>9041 Oostakker</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">6</SimpleData>
+<SimpleData name="Naam">Wolfput</SimpleData>
+<SimpleData name="straat">Wolfputstraat</SimpleData>
+<SimpleData name="nr">92</SimpleData>
+<SimpleData name="pstcd">9041</SimpleData>
+<SimpleData name="Gem">Oostakker</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.76454363850854,51.092941250632,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8">
+<name>kml_8</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Neptunus openlucht</p>
+            <p class="activity__detail--adress">Botestraat 100<br>9032 Wondelgem</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">7</SimpleData>
+<SimpleData name="Naam">Neptunus (openlucht)</SimpleData>
+<SimpleData name="straat">Botestraat</SimpleData>
+<SimpleData name="nr">100</SimpleData>
+<SimpleData name="pstcd">9032</SimpleData>
+<SimpleData name="Gem">Wondelgem</SimpleData>
+<SimpleData name="type">Zwembaden</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.7047176321211,51.0866480085378,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_9">
+<name>kml_9</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Rooigem</p>
+            <p class="activity__detail--adress">Peerstraat 1<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">8</SimpleData>
+<SimpleData name="Naam">Rooigem</SimpleData>
+<SimpleData name="straat">Peerstraat</SimpleData>
+<SimpleData name="nr">1</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Zwembaden</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.69182586563794,51.0590584965092,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_10">
+<name>kml_10</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Rozebroeken</p>
+            <p class="activity__detail--adress">Rozebroekenslag 28<br>9040 Sint-Amandsberg</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">9</SimpleData>
+<SimpleData name="Naam">Rozebroeken</SimpleData>
+<SimpleData name="straat">Rozebroekslag</SimpleData>
+<SimpleData name="nr">28</SimpleData>
+<SimpleData name="pstcd">9040</SimpleData>
+<SimpleData name="Gem">Sint-Amandsberg</SimpleData>
+<SimpleData name="type">Zwembaden</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.76088287372297,51.0600364026014,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_11">
+<name>kml_11</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Strop</p>
+            <p class="activity__detail--adress">Stropstraat 31<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">10</SimpleData>
+<SimpleData name="Naam">Strop</SimpleData>
+<SimpleData name="straat">Stropstraat</SimpleData>
+<SimpleData name="nr">31</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Zwembaden</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.72898437347536,51.0364721869652,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_12">
+<name>kml_12</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Van Eyck</p>
+            <p class="activity__detail--adress">Veermansplein 1<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">11</SimpleData>
+<SimpleData name="Naam">Van Eyck</SimpleData>
+<SimpleData name="straat">Veermanplein</SimpleData>
+<SimpleData name="nr">1</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Zwembaden</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.73389151294044,51.053551237585,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_13">
+<name>kml_13</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Jan Yoens</p>
+            <p class="activity__detail--adress">Dracenastraat 8<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">12</SimpleData>
+<SimpleData name="Naam">Jan Yoens</SimpleData>
+<SimpleData name="straat">Dracenastraat</SimpleData>
+<SimpleData name="nr">8</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Buitensporten</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.71539242420018,51.0759912713685,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_14">
+<name>kml_14</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Tennishal</p>
+            <p class="activity__detail--adress">Zuiderlaan 10<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">13</SimpleData>
+<SimpleData name="Naam">Tennishal</SimpleData>
+<SimpleData name="straat">Zuiderlaan</SimpleData>
+<SimpleData name="nr">10</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Buitensporten</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.68214560460972,51.0470593176624,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_15">
+<name>kml_15</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Keiskant</p>
+            <p class="activity__detail--adress">Keiskantstraat 3<br>9031 Drongen</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">14</SimpleData>
+<SimpleData name="Naam">Keiskant</SimpleData>
+<SimpleData name="straat">Keiskantstraat</SimpleData>
+<SimpleData name="nr">3</SimpleData>
+<SimpleData name="pstcd">9031</SimpleData>
+<SimpleData name="Gem">Drongen</SimpleData>
+<SimpleData name="type">Sporthal</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.64170838297324,51.0457007618734,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_16">
+<name>kml_16</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Sportcentrum Rosas</p>
+            <p class="activity__detail--adress">Sint-Jozefstraat 7<br>9041 Oostakker</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">15</SimpleData>
+<SimpleData name="Naam">Rosas</SimpleData>
+<SimpleData name="straat">Sint-Jozefstraat</SimpleData>
+<SimpleData name="nr">7</SimpleData>
+<SimpleData name="pstcd">9041</SimpleData>
+<SimpleData name="Gem">Oostakker</SimpleData>
+<SimpleData name="type">Zwembaden</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.76665267371456,51.0837203408005,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_17">
+<name>kml_17</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Blaarmeersen</p>
+            <p class="activity__detail--adress">Zuiderlaan 5<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">16</SimpleData>
+<SimpleData name="Naam">Blaarmeersen</SimpleData>
+<SimpleData name="straat">Zuiderlaan</SimpleData>
+<SimpleData name="nr">5</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Buitensporten</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.68806627865641,51.0444176980839,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_18">
+<name>kml_18</name>
+<Snippet> </Snippet>
+<description><![CDATA[<p class="text__accent submenu__title activity__detail--title">Camping</p>
+            <p class="activity__detail--adress">Zuiderlaan 12<br>9000 Gent</p>
+            <p class="activity__detail--description">Sportcentrum met mogelijkheid uitoefening van verschillende sporten</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>]]></description>
+<Style>
+<IconStyle>
+          <Icon>
+            <href>http://www.samson-bambust.be/gym.png</href>
+          </Icon>
+        </IconStyle>
+<LineStyle>
+<color>ff3000a3</color>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#Sport(Gent)">
+<SimpleData name="FID">17</SimpleData>
+<SimpleData name="Naam">Camping</SimpleData>
+<SimpleData name="straat">Zuiderlaan</SimpleData>
+<SimpleData name="nr">12</SimpleData>
+<SimpleData name="pstcd">9000</SimpleData>
+<SimpleData name="Gem">Gent</SimpleData>
+<SimpleData name="type">Buitensporten</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>3.68046305985085,51.0463595342927,0 </coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>

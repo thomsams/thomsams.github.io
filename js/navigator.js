@@ -1,22 +1,15 @@
+var Navigator = {
+    "loginCorrect":function(){
+                      $('.login__block').toggleClass('offCanvas__top');
+                      $('.user__template').toggleClass('offCanvas__top--open');
+                      $('.login__block').toggleClass('offCanvas__top--open');
+                      $('.user__template').toggleClass('offCanvas__top');
+                      return false;
+    }
+}
 $( document ).ready(function() {
   (function(){
 
-    //------------------------------------------------------ Op login drukken, login gaat omhoog, Userscherm komt naar beneden----------------------------------------//
-    var toggleOpen=$('.login__submitButton');
-    if(toggleOpen)
-    {
-      
-      $('.login__submitButton').click(function(e)
-      {
-        e.preventDefault();
-        $('.login__block').toggleClass('offCanvas__top');
-        $('.user__template').toggleClass('offCanvas__top--open');
-        $('.login__block').toggleClass('offCanvas__top--open');
-        $('.user__template').toggleClass('offCanvas__top');
-        return false;
-      })
-    }
-  
   //------------------------------------------------------ OP user sluitknop gedrukt, User blok gaat omhoog, logo komt naar beneden, filter verschijnt ----------------------------------------//
     var toggleUser=$('.user__template--close');
      if(toggleUser)
@@ -66,6 +59,7 @@ $( document ).ready(function() {
         return false;
       })
     }
+//------------------------------------------------------ activiteit aangeklikt, activiteitsDetail gaat open ----------------------------------------//
 
 
   })();

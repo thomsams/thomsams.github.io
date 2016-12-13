@@ -2,3 +2,11 @@
     background: $darkerGrey;
     color:$accentColor;
 }
+.logout__submitButton{
+     width:60%;
+    display:block;
+    height:1.6rem;
+    margin-bottom:1rem;
+    border:none;
+     @include border-radius(0.3rem);
+}

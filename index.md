@@ -23,6 +23,7 @@ title: "New Media Design & Development I"
         </div>
         <div class="column-12 ">
             <form id="frm-login">
+            <p class="text__error login__error"></p>
             <div class="login__inputGroup">
                 <input class="login__input input__base" type="text" id="txtUserName" name="txtUserName" placeholder="username">
             </div>
@@ -54,9 +55,10 @@ title: "New Media Design & Development I"
             <div class="user__data">
                 <h1 class="user__username">Username</h1>
                 <p class="user__info">user info <br>more info<br> even more info</p>
-                <p class="user__description">Yes, I am Danny Worsnop, the one and only singer from Asking Alexandria. Im a mfing rockstar, I like booze, my dog and working out to keep this slab of rock in shape.</p>
-
                 <p class="user__workoutCount text__accent">Total workouts done: </p>
+                 <button id="logout__submitButton" class="button__base logout__submitButton" type="submit">
+                Log out
+                        </button>
                 <i class="fa fa-chevron-up user__template--close" aria-hidden="true"></i>
             </div>
         </div>
@@ -93,6 +95,21 @@ title: "New Media Design & Development I"
                 </div>
                 <button type="submit" class="input__base button__base filter__submitButton">Apply</button>
             </form>
+        </div>
+    </div>
+</div>
+
+<!-- sports activity container -->
+<div class="container activityDetail__block offCanvas__bottom--hidden">
+    <div class="row">
+        <div class="column-12 activity__detail--container">
+            <p class="text__accent submenu__title activity__detail--title">activiteitsnaam</p>
+            <p class="activity__detail--adress">adres gent<br>9000 Gent</p>
+            <p class="activity__detail--description"></p>
+            <p class="activity__detail--distance">Afstand: 2km</p>
+            <p class="text__accent submenu__title activity__detail--present">Present users:</p>
+            <div class="activity__detail--userContainer"></div>
+            <button type="submit">Check in</button>
         </div>
     </div>
 </div>
