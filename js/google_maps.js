@@ -50,9 +50,9 @@ var GMap = {
         this._markersTreesInventory = [];
         this._markerClusterTreesInventory = null;
         var kmlLayer = new google.maps.KmlLayer({
-          url: 'http://www.samson-bambust.be/geoloc/SportGent.kmz',
+          url: 'http://www.samson-bambust.be/geoloc/Sportcentra.kmz',
           map: this._map,
-          suppressInfoWindows:false 
+          suppressInfoWindows:true 
         });
         kmlLayer.addListener('click', function(kmlEvent) {
           var text = kmlEvent.featureData.description;
