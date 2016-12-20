@@ -101,7 +101,7 @@ title: "New Media Design & Development I"
 </div>
 
 <!-- sports activity container -->
-<div class="container activityDetail__block offCanvas__bottom--hidden">
+<div class="container activityDetail__block offCanvas__bottom--hiddenDeep">
     <div class="row">
         <div class="column-12 activity__detail--extra">
             <a class="activity__detail--close fa fa-times"></a>
@@ -114,6 +114,8 @@ title: "New Media Design & Development I"
             <p class="text__accent submenu__title activity__detail--present">Present users:</p>
             <div class="activity__detail--userContainer"></div>
             <button type="submit">Check in</button>
+        </div>
+        <div class="column-12 activity__detail--weather">
         </div>
     </div>
 </div>

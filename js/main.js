@@ -52,7 +52,13 @@ ready(function(){
                         self._activeUser = result; // User is Logged in
                         $('.user__imgPlaceholder').attr('src',self._activeUser.Picture);
                         $('.user__username').html(self._activeUser.UserName);
-                        var info = self._activeUser.FirstName+" "+self._activeUser.SurName+"<br>"+self._activeUser.DayOfBirth+"<br>"+self._activeUser.Email;
+                        var date =  new Date(self._activeUser.DayOfBirth);
+                        var month = date.getUTCMonth() + 1; //months from 1-12
+                        var day = date.getUTCDate();
+                        var year = date.getUTCFullYear();
+
+                        var newdate =  day + "/" + month + "/" + year;
+                        var info = self._activeUser.FirstName+" "+self._activeUser.SurName+"<br>"+newdate+"<br>"+self._activeUser.Email;
                         $('.user__info').html(info);
                         Navigator.loginCorrect();
                     }

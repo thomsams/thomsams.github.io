@@ -61,14 +61,13 @@ var GMap = {
 
         function showInContentWindow(text) {
             $('.activity__detail--container').html(text);
-            if($('.activityDetail__block').hasClass('offCanvas__bottom--hidden')){
-                console.log('rest');
+            if($('.activityDetail__block').hasClass('offCanvas__bottom--hiddenDeep')){
                 openActivityDetail();
             }
             
         }
         function openActivityDetail(){
-         $('.activityDetail__block').toggleClass('offCanvas__bottom--hidden');
+            Navigator.closeDetail();
         }
     },
     "addMarkerGeoLocation": function(geoLocation) {
@@ -88,7 +87,6 @@ var GMap = {
             _.each(trees, function(tree){
                 var coordinates = [tree.geometry.coordinates[0],tree.geometry.coordinates[1]];
                 var iconstring;
-                console.log(tree.properties.Sport);
                 
                 switch(tree.properties.Sport){
                                 case "Basketbal":
@@ -119,7 +117,6 @@ var GMap = {
                     title:tree.properties.Sport,
                     icon:iconstring
                 });// Create a Google Maps Marker
-                console.log(coordinates[0]+' '+coordinates[1]);
                 marker.setMap(self._map);// Add Marker to Map
     
                 self._markersTreesInventory.push(marker);

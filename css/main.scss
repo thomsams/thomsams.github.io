@@ -11,7 +11,6 @@
 ////base
 @import "_base/reset";
 @import "_base/typography";
-
 ////components
 @import "_components/buttons";
 @import "_components/carousel";
@@ -37,3 +36,4 @@
 
 
 ////vendor
+@import "_weathericons/weather-icons.min";

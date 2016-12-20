@@ -7,7 +7,7 @@ var Navigator = {
                       return false;
     },
     "closeDetail": function(){
-      $('.activityDetail__block').toggleClass('offCanvas__bottom--hidden');
+      $('.activityDetail__block').toggleClass('offCanvas__bottom--hiddenDeep');
     }
 }
 $( document ).ready(function() {
