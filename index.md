@@ -45,7 +45,7 @@ title: "New Media Design & Development I"
         </div>
     </div>
     <div class="row">
-        <div class="column-12">
+        <div class="column-12 clearfix">
             <div class="user__img-clipArt">
                 <img src="assets/user_img_setting.svg" alt="user image setting" class="user__imgSetting">
                 <div class="user__img-container">
@@ -59,10 +59,11 @@ title: "New Media Design & Development I"
                  <button id="logout__submitButton" class="button__base logout__submitButton" type="submit">
                 Log out
                         </button>
-                <i class="fa fa-chevron-up user__template--close" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up user__template--close" aria-hidden="true"></i>
             </div>
         </div>
     </div>
+     
 </div>
 
 
@@ -102,6 +103,9 @@ title: "New Media Design & Development I"
 <!-- sports activity container -->
 <div class="container activityDetail__block offCanvas__bottom--hidden">
     <div class="row">
+        <div class="column-12 activity__detail--extra">
+            <a class="activity__detail--close fa fa-times"></a>
+        </div>
         <div class="column-12 activity__detail--container">
             <p class="text__accent submenu__title activity__detail--title">activiteitsnaam</p>
             <p class="activity__detail--adress">adres gent<br>9000 Gent</p>

@@ -56,14 +56,16 @@ var GMap = {
         });
         kmlLayer.addListener('click', function(kmlEvent) {
           var text = kmlEvent.featureData.description;
-          console.log(text);
-
           showInContentWindow(text);
         });
 
         function showInContentWindow(text) {
             $('.activity__detail--container').html(text);
-            openActivityDetail();
+            if($('.activityDetail__block').hasClass('offCanvas__bottom--hidden')){
+                console.log('rest');
+                openActivityDetail();
+            }
+            
         }
         function openActivityDetail(){
          $('.activityDetail__block').toggleClass('offCanvas__bottom--hidden');
@@ -84,7 +86,7 @@ var GMap = {
             var marker = null, self = this;
 
             _.each(trees, function(tree){
-                var coordinates = self.lambertToLatLong(tree.geometry.coordinates[0],tree.geometry.coordinates[1]);
+                var coordinates = [tree.geometry.coordinates[0],tree.geometry.coordinates[1]];
                 var iconstring;
                 console.log(tree.properties.Sport);
                 
@@ -106,15 +108,18 @@ var GMap = {
                                 iconstring= "../assets/pins/petanque.png";
                                 break;
 
+                                default:
+                                iconstring= "../assets/pins/basketball.png";
+                                break;
                                
                             }
                 marker = new google.maps.Marker({
-
-                        position:new google.maps.LatLng(coordinates[0],coordinates[1]),
+                        
+                        position:new google.maps.LatLng(coordinates[1],coordinates[0]),
                     title:tree.properties.Sport,
                     icon:iconstring
                 });// Create a Google Maps Marker
-    
+                console.log(coordinates[0]+' '+coordinates[1]);
                 marker.setMap(self._map);// Add Marker to Map
     
                 self._markersTreesInventory.push(marker);
@@ -165,5 +170,22 @@ var GMap = {
 	newLatitude *= 180 / Math.PI;
 	return [newLatitude, newLongitude];
 
-}
+},
+    "toMerc" : function(x,y){
+            Math.radians = function(degrees) {
+                return degrees * Math.PI / 180;
+            };
+    
+    // Converts from radians to degrees.
+    Math.degrees = function(radians) {
+    return radians * 180 / Math.PI;
+    };
+       
+
+       lat =  Math.degrees(Math.atan(Math.sinh(Math.radians(y))));
+        long = x;
+    return Array(lat,long);
+
+
+    }
 };

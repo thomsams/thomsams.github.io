@@ -42,12 +42,18 @@
     top:-150px;
     left:-1px;
 }
+
 .user__template--close{
     margin: 0 auto;
     display:block;
     color:white;
 }
-
+.user__data{
+    .user__template--close{
+        float: right;
+        margin-right: 50%;
+    }
+}
 .header__block{
    background-color:$standardBackground;
     padding-bottom:.5rem;

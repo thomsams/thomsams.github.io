@@ -31,3 +31,11 @@
     bottom: -230px;
     transition: all 368ms ease-in-out 468ms;
 }
+
+.activity__detail--container p:first-child{
+    color:$accentColor;
+    font-size:1rem;
+}
+.activity__detail--container p:nth-child(4){
+    color:$accentColor;
+}

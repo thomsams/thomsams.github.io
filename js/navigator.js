@@ -5,6 +5,9 @@ var Navigator = {
                       $('.login__block').toggleClass('offCanvas__top--open');
                       $('.user__template').toggleClass('offCanvas__top');
                       return false;
+    },
+    "closeDetail": function(){
+      $('.activityDetail__block').toggleClass('offCanvas__bottom--hidden');
     }
 }
 $( document ).ready(function() {
@@ -59,8 +62,8 @@ $( document ).ready(function() {
         return false;
       })
     }
-//------------------------------------------------------ activiteit aangeklikt, activiteitsDetail gaat open ----------------------------------------//
-
+//------------------------------------------------------ activiteitsdetail sluiten ----------------------------------------//
+$('.activity__detail--close').click(function(){Navigator.closeDetail()});
 
   })();
 });
