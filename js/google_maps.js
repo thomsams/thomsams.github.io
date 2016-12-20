@@ -61,14 +61,12 @@ var GMap = {
 
         function showInContentWindow(text) {
             $('.activity__detail--container').html(text);
-            if($('.activityDetail__block').hasClass('offCanvas__bottom--hidden')){
-                openActivityDetail();
+            if($('.activityDetail__block').hasClass('offCanvas__bottom--hiddenDeep')){
+                Navigator.closeDetail();
             }
             
         }
-        function openActivityDetail(){
-         $('.activityDetail__block').toggleClass('offCanvas__bottom--hidden');
-        }
+        
     },
     "addMarkerGeoLocation": function(geoLocation) {
         this._geoLocationMarker = new google.maps.Marker({
@@ -87,7 +85,6 @@ var GMap = {
             _.each(trees, function(tree){
                 var coordinates = [tree.geometry.coordinates[0],tree.geometry.coordinates[1]];
                 var iconstring;
-                
                 switch(tree.properties.Sport){
                                 case "Basketbal":
                                 iconstring= "../assets/pins/basketball.png";
@@ -115,12 +112,16 @@ var GMap = {
                         
                         position:new google.maps.LatLng(coordinates[1],coordinates[0]),
                     title:tree.properties.Sport,
-                    icon:iconstring
+                    icon:iconstring,
+                    number:tree.properties.NUMMER,
+                    name:tree.properties.Naam,
+                    wijk:tree.properties.Wijk
                 });// Create a Google Maps Marker
                 marker.setMap(self._map);// Add Marker to Map
     
                 self._markersTreesInventory.push(marker);
             });
+            self.clickMarker(self._markersTreesInventory);
             
         }
     },
@@ -138,51 +139,16 @@ var GMap = {
     "refresh": function() {
         google.maps.visualRefresh = true;
         google.maps.event.trigger(this.map,'resize');
-    }, 
-    "lambertToLatLong" : function(x, y){
-
-	var newLongitude, newLatitude;
-
-	var n = 0.77164219,
-	    F = 1.81329763,
-		thetaFudge = 0.00014204,
-		e = 0.08199189,
-		a = 6378388,
-		xDiff = 149910,
-		yDiff = 5400150,
-		theta0 = 0.07604294;
-
-	var xReal = xDiff - x,
-	    yReal = yDiff - y;
-
-	var rho = Math.sqrt(xReal * xReal + yReal * yReal),
-	    theta = Math.atan(xReal / -yReal);
-
-	newLongitude = (theta0 + (theta + thetaFudge) / n) * 180 / Math.PI;
-	newLatitude = 0;
-
-	for (var i = 0; i < 5 ; ++i) {
-		newLatitude = (2 * Math.atan(Math.pow(F * a / rho, 1 / n) * Math.pow((1 + e * Math.sin(newLatitude)) / (1 - e * Math.sin(newLatitude)), e / 2))) - Math.PI / 2;
-	}
-	newLatitude *= 180 / Math.PI;
-	return [newLatitude, newLongitude];
-
-},
-    "toMerc" : function(x,y){
-            Math.radians = function(degrees) {
-                return degrees * Math.PI / 180;
-            };
-    
-    // Converts from radians to degrees.
-    Math.degrees = function(radians) {
-    return radians * 180 / Math.PI;
-    };
-       
-
-       lat =  Math.degrees(Math.atan(Math.sinh(Math.radians(y))));
-        long = x;
-    return Array(lat,long);
-
-
+    },
+    "clickMarker": function(arrMarkers){
+        var self = this;
+        for(var i = 0; i<arrMarkers.length; i++){
+            google.maps.event.addListener(arrMarkers[i],'click', function(e){
+                $('.activity__detail--container').html("<p>"+this.title+"</p><p>"+this.name+" "+this.number+"<br>"+this.wijk+"</p><p>Buurtsportlocatie waar mogelijkheid is tot sportevenementen en groepssport.</p><p>Present users</p>");
+                if($('.activityDetail__block').hasClass('offCanvas__bottom--hiddenDeep')){
+                Navigator.closeDetail();
+            }
+            });
+        }
     }
 };
