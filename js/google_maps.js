@@ -61,13 +61,13 @@ var GMap = {
 
         function showInContentWindow(text) {
             $('.activity__detail--container').html(text);
-            if($('.activityDetail__block').hasClass('offCanvas__bottom--hiddenDeep')){
+            if($('.activityDetail__block').hasClass('offCanvas__bottom--hidden')){
                 openActivityDetail();
             }
             
         }
         function openActivityDetail(){
-            Navigator.closeDetail();
+         $('.activityDetail__block').toggleClass('offCanvas__bottom--hidden');
         }
     },
     "addMarkerGeoLocation": function(geoLocation) {
